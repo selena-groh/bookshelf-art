@@ -23,7 +23,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    box-shadow: inset 0px 0px 16px 4px #000000;
+    box-shadow: inset 0px 0px 16px 4px rgb(41, 34, 34);
     mix-blend-mode: soft-light;
     clip-path: inset(0px -16px 0px -16px);
   }
@@ -37,6 +37,8 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    text-shadow: 1px 0px 2px rgb(41, 34, 34);
+
     // #{$root}--isWide & {
     //   font-size: 16px;
     // }

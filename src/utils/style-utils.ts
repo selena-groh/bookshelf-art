@@ -31,11 +31,14 @@ export const FONT_STYLES = [
     letterSpacing: "0.5px",
   },
   {
-    fontFamily: "Helvetica, serif",
+    fontFamily: "Cinzel, serif",
     fontWeight: "bold",
   },
   {
-    fontFamily: "Cambria, serif",
+    fontFamily: "Besley, serif",
+  },
+  {
+    fontFamily: "Kode Mono, monospace",
   },
 ];
 
@@ -69,7 +72,7 @@ export function getFontStyles(book: BookType, series: Series) {
   if (series) {
     return series.seriesFontStyles;
   } else {
-    return {};
+    return getRandomElement(FONT_STYLES);
   }
 }
 
