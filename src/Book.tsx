@@ -14,7 +14,6 @@ import {
   calculateRandomBorderRadius,
 } from "./utils/style-utils";
 import { seriesMap } from "./data/books";
-import { getRandomInt } from "./utils/utils";
 import {
   getAuthorLastName,
   getShortenedBookTitle,
