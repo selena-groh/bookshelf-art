@@ -4,11 +4,6 @@ import Book from "./Book";
 import classNames from "classnames";
 
 const Bookshelf = () => {
-  // const totalPages = books.reduce(
-  //   (runningSum, book) => runningSum + book.numberOfPages,
-  //   0
-  // );
-
   const allButLastThreeBooks = books.slice(0, -3);
   const lastThreeBooks = books.slice(-3);
 

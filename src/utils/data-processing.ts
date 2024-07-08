@@ -66,3 +66,18 @@ export function getShortenedBookTitle(book: Book): string {
 export function getAuthorLastName(book: Book): string {
   return book.authorLastFirst.split(",").at(0) || book.authorLastFirst;
 }
+
+export function getBookTitleWithSeries(book: Book) {
+  return book.series
+    ? `${book.title} (${book.series} #${book.seriesNumber})`
+    : book.title;
+}
+
+export function getSeriesWithNumber(book: Book) {
+  if (book.series && (book.seriesNumber || book.seriesNumber === 0)) {
+    return `${book.series} #${book.seriesNumber}`;
+  } else if (book.series) {
+    return book.series;
+  }
+  return "";
+}
