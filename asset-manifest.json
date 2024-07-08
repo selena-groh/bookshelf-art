@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bookshelf-art/static/css/main.fc30ac22.css",
+    "main.css": "/bookshelf-art/static/css/main.3cc8160b.css",
     "main.js": "/bookshelf-art/static/js/main.8971988d.js",
     "static/media/2548866.jpg": "/bookshelf-art/static/media/2548866.8638541c10ca641cd44d.jpg",
     "static/media/61431922.jpg": "/bookshelf-art/static/media/61431922.a1fd39b59de3e9b50d84.jpg",
@@ -644,11 +644,11 @@
     "static/media/10560331.jpg": "/bookshelf-art/static/media/10560331.d189e4a149e310997790.jpg",
     "static/media/39947376.jpg": "/bookshelf-art/static/media/39947376.39d49fb948e5bed39fcd.jpg",
     "index.html": "/bookshelf-art/index.html",
-    "main.fc30ac22.css.map": "/bookshelf-art/static/css/main.fc30ac22.css.map",
+    "main.3cc8160b.css.map": "/bookshelf-art/static/css/main.3cc8160b.css.map",
     "main.8971988d.js.map": "/bookshelf-art/static/js/main.8971988d.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc30ac22.css",
+    "static/css/main.3cc8160b.css",
     "static/js/main.8971988d.js"
   ]
 }
